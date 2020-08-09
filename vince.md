@@ -7,12 +7,12 @@ Ancient Version : v3.9
 Maintainer : Srinand.E.K 
 =================
 
-Date - 01/08/2020
+Date - 09/08/2020
 =================
 
 Source Changelogs:
 =================
-• July security patch (r40)
+• August security patch (r41)
 • Removed selinux switch
 • Improve fod
 • Swipe up on keyguard to use FU
@@ -60,8 +60,26 @@ Source Changelogs:
 
 Device Changelogs:
 =================
-• Added Xiaomi Parts
-• Added Face Unlock
-• Kernel Upstream 
-• Add Dirac
-• Under The Hood Improvements
+• Remove ringtone focus mode
+• Add framework detect modules to PRODUCT_PACKAGES
+• Update configfs from lineage tree
+• Address rild denial
+• Import usb related configs
+• Update Coral August Fingerprint
+• Add aptx blobs from coral
+• Update Perf hal Support
+• Update blobs OpenGL-V@474.0
+• Update blobs vulkan 1.1.128_treble
+• Set properties for updated Vulkan driver
+• Enable QS System info
+• Improve overall usability
+• Update vendor security patch
+• Address thermal-engine denials
+• Disable fluence
+• Initial tuning for EAS
+• Enable cpuidle during boot
+• Fix audio recording distortion
+• Update BCL paths
+• Shorten wait time to optimize shutdown time
+• Enable Smart Charging
+• Under The Hood Optimizations...
