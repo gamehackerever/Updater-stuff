@@ -1,65 +1,46 @@
-AncientOS 3.9 | Primeval | Koshiki | July 25, 2020
+AncientOS 4.0 Final | Primeval | Koshiki | Sept 21, 2020
 
-Source CL :
-• July security patch (r40)
-• Removed selinux switch
-• Improve fod
-• Swipe up on keyguard to use FU
-• Fixed edit tile keep pressed while not expanded
-• Fixed double tap to check phone
-• Fixed SystemUI crash with custom volume panel
-• Change default scale animations
-• Improved gaming mode
-• Disable notification vibration
-• Improve edge lightning from ion OS
-• Update interval weather
-• Live data usage
-• Added option for selecting SBC HD codec by default
-• Added option for a2dp codec priority
-• Added fod pressed
-• Added Quick QS brightness slider
-• Added Color OS 7 FP animations
-• Added realme pressed
-• Added Ancient FOS
-• Added Pattern 4x4 - 6x6
-• Added toogle for gradient QS Background
-• Added QS Tile Styles (also add ancient tiles)
-• Added QS Clock Style
-• Added QS Analog Style
-• Added QS Themes
-• Added Settings Style
-• Added statusbar height for dual row
-• Added Settings dashboard icons
-• Added slim recents
-• Added Switch Styles
-• Added QS Label options (accent, gradient)
-• Added new QS tint
-• Added disable quick settings on LS
-• Added Quick settings pulldown
-• Added Smart Pulldown
-• Added LiveDisplay
-• Added sensor block package list
-• Added QS tint mode (random, disco)
-• Added toogle to hide lock icon on LS
-• Added Ancient Widget Clock
-• Added longpress power to toogle torch
-• Added allow VPN Tethering
-• Added Notifications ticker
+Source Changelogs:
+• Sept security patch
+• Improve Doze
+• Improve UI
+• Improve qstile and icon primary
+• Add VOOC charging support
+• Add screen off FOD
+• Add Realme recog FP animation
+• Add Realme green FOD pressed
+• Add ambient display battery toggle
+• Add Miui volume dialog
+• Add lockscreen clock animation
+• Add navbar custom
+• Add background merge for qs and notif
+• Add screen stabilization
+• Add touch respone optimizations
+• Add Clipboard toast like ios
+• Add support lineage power HAL
+• Add square switch
+• Add more systembar
+• Add notification count
+• Add land dimensions
+• Add more AncientStyle
+• Add settings animation
+• Update QuickStep
+• Update Dialer
+• Update Widget
 • More
+
 
 -----------------
 
 Devie Changelogs:
-• Switched to QTI BT .
-• Updated blobs from MIUI 20.7.3 .
-• Updated GPS HAL From LA.UM.8.11.r1-03800-NICOBAR.0 .
-• Updated kernel to Quicksilver .188 .
-• Updated WireGuard to v1.0.20200712 .
-• Fixed FM Radio .
-• Fixed model name in EXIF data .
-• Added support for willow devices with 19.39.0 hwversion (now you can use latest mauronofrio's TWRP 3.4.0-1) .
-• Added Xiaomi Parts
-• Added Back Mi Sound Enhancer .
-• Added SafailNet
-• Fixed Wifi Display Green Screen Issue .
-• Added clear speaker feature from MIUI .
+• Updated blobs from miui 20.9.16
+• Reduced cpu usage during audio playback
+• Fixed Speaker Low Volume Issues .
+• Fixed minor issues with fp
+• Merged upstream linux 4.14.198 
+• Reduced scheduler latency
+• Fixed power button issue for some users
+• Fixed Gcam HDR+ accelerated processing. 
+• Fixed potential random reboots while using 4g
+• Blocked qup_uart wakelock when BT connected
+• Fixed EIS
